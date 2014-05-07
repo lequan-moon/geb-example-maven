@@ -70,10 +70,10 @@
         <version>2.9</version>
         <configuration>
           <includes>
-            <include>*Spec.*</include>
+            <include>testSpec.*</include>
           </includes>
           <systemPropertyVariables>
-            <geb.build.baseUrl>http://google.com/ncr</geb.build.baseUrl>
+            <geb.build.baseUrl>http://google.com</geb.build.baseUrl>
             <geb.build.reportsDir>target/test-reports/geb</geb.build.reportsDir>
           </systemPropertyVariables>
         </configuration>
